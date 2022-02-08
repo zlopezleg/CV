@@ -1,0 +1,42 @@
+/*Color en la cabecera de la página*/
+header{
+    background-color: rgb(86, 197, 201);
+    text-align: center;
+}
+/*borde y tamaño de la imagen*/
+#profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/*link de google font*/
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+/*color de las líneas de página*/
+hr{
+    border-color: rgb(75, 190, 190);
+}
+/*alineación de contacto*/
+.contact{
+    text-align: center;
+}
+/*quitar las viñetas de listas*/
+.lista, #punto{
+    list-style: none;
+}
+
+/*doble columna en lista*/
+#habilidades, .lista{
+    column-count: 2;
+}
+/*color al botón*/
+#boton1{
+    background-color: rgb(173, 161, 161);
+}
+/* pseudoclase para dar color diferente cuando se posicione sobre el botón*/
+#boton1:hover{
+    background-color: rgb(66, 226, 191);
+}
+
