@@ -4,7 +4,7 @@ header{
     text-align: center;
 }
 /*borde y tamaño de la imagen*/
-#profile{
+.image-profile{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -28,7 +28,7 @@ hr{
 }
 
 /*doble columna en lista*/
-#habilidades, .lista{
+#skills, .lista{
     column-count: 2;
 }
 /*color al botón*/
